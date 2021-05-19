@@ -4,6 +4,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  filter: contrast(1.75);
+  -webkit-filter: contrast(1.75);
 }
 
 a {
@@ -14,6 +16,11 @@ a:hover {
   color: #3b8af2;
   text-decoration: none;
 }
+a:focus {
+  outline-width: 1px;
+  outline-style: dashed;
+  outline-color: red;
+}
 
 h1,
 h2,
@@ -22,6 +29,8 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
+  filter: contrast(1.75);
+  -webkit-filter: contrast(1.75);
 }
 
 /*--------------------------------------------------------------
